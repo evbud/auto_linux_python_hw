@@ -20,4 +20,5 @@ def test_step2(clear_folders, make_folders, make_files, make_badarx):
 def test_step3(clear_folders, make_folders, make_files):
     # test3
     assert checkout_negative("cd {}; 7z a -t{} {}/arx".format(data['folder_in'], data['badarx_type'],
-                                                              data['folder_badarx']), "Unsupported archive type")
+                                                              data['folder_badarx']), "Unsupported archive type"),\
+        "Test3 neg Fail"
