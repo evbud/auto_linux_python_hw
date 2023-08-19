@@ -1,0 +1,15 @@
+folder_in: /home/user2/tst/file
+folder_out: /home/user2/tst/out
+folder_ext: /home/user2/tst/ext
+folder_ext2: /home/user2/tst/ext2
+folder_badarx: /home/user2/tst/badarx
+count_file: 5
+size_file: 1M
+archive_type: zip
+badarx_type: 8z
+project_dir: /home/user2/tst
+stat_file: /home/user2/tst/stat.txt
+host: 0.0.0.0
+user: user2
+local_path: /home/user
+remote_path: /home/user2

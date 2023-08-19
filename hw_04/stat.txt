@@ -1,0 +1,190 @@
+авг 19 18:42:28 userpc systemd[40026]: Queued start job for default target Main User Target.
+авг 19 18:42:28 userpc systemd[40026]: Created slice User Application Slice.
+авг 19 18:42:28 userpc systemd[40026]: Created slice User Background Tasks Slice.
+авг 19 18:42:28 userpc systemd[40026]: Created slice User Core Session Slice.
+авг 19 18:42:28 userpc systemd[40026]: Started Pending report trigger for Ubuntu Report.
+авг 19 18:42:28 userpc systemd[40026]: Reached target Paths.
+авг 19 18:42:28 userpc systemd[40026]: Reached target Timers.
+авг 19 18:42:28 userpc systemd[40026]: Starting D-Bus User Message Bus Socket...
+авг 19 18:42:28 userpc systemd[40026]: Listening on GnuPG network certificate management daemon.
+авг 19 18:42:28 userpc systemd[40026]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+авг 19 18:42:28 userpc systemd[40026]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+авг 19 18:42:28 userpc systemd[40026]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+авг 19 18:42:28 userpc systemd[40026]: Listening on GnuPG cryptographic agent and passphrase cache.
+авг 19 18:42:28 userpc systemd[40026]: Listening on PipeWire Multimedia System Socket.
+авг 19 18:42:28 userpc systemd[40026]: Listening on debconf communication socket.
+авг 19 18:42:28 userpc systemd[40026]: Listening on Sound System.
+авг 19 18:42:28 userpc systemd[40026]: Listening on REST API socket for snapd user session agent.
+авг 19 18:42:28 userpc systemd[40026]: Listening on Speech Dispatcher Socket.
+авг 19 18:42:28 userpc systemd[40026]: Listening on D-Bus User Message Bus Socket.
+авг 19 18:42:28 userpc systemd[40026]: Reached target Sockets.
+авг 19 18:42:28 userpc systemd[40026]: Reached target Basic System.
+авг 19 18:42:28 userpc systemd[40026]: Started PipeWire Multimedia Service.
+авг 19 18:42:28 userpc systemd[40026]: Started PipeWire Media Session Manager.
+авг 19 18:42:28 userpc systemd[40026]: Starting Sound Service...
+авг 19 18:42:28 userpc systemd[40026]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+авг 19 18:42:28 userpc systemd[40026]: Starting Tracker metadata extractor...
+авг 19 18:42:28 userpc systemd[40026]: Started D-Bus User Message Bus.
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] AppArmor D-Bus mediation is enabled
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1001 pid=40037 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+авг 19 18:42:28 userpc systemd[40026]: Starting Virtual filesystem service...
+авг 19 18:42:28 userpc pipewire[40033]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+авг 19 18:42:28 userpc pipewire[40033]: mod.rt: could not set nice-level to -11: Отказано в доступе
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.gtk.vfs.Daemon'
+авг 19 18:42:28 userpc systemd[40026]: Started Virtual filesystem service.
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.4' (uid=1001 pid=40036 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.1' (uid=1001 pid=40037 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+авг 19 18:42:28 userpc systemd[40026]: Starting flatpak document portal service...
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.5' (uid=1001 pid=40102 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+авг 19 18:42:28 userpc systemd[40026]: Starting Tracker file system data miner...
+авг 19 18:42:28 userpc systemd[40026]: Starting sandboxed app permission store...
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+авг 19 18:42:28 userpc systemd[40026]: Started sandboxed app permission store.
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.freedesktop.portal.Documents'
+авг 19 18:42:28 userpc systemd[40026]: Started flatpak document portal service.
+авг 19 18:42:28 userpc tracker-miner-f[40113]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+авг 19 18:42:28 userpc tracker-miner-f[40113]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+авг 19 18:42:28 userpc tracker-miner-f[40113]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+авг 19 18:42:28 userpc tracker-miner-f[40113]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+авг 19 18:42:28 userpc tracker-miner-f[40113]: Unable to get XDG user directory path for special directory &DOWNLOAD. Ignoring this location.
+авг 19 18:42:28 userpc tracker-miner-f[40113]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+авг 19 18:42:28 userpc tracker-miner-f[40113]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+авг 19 18:42:28 userpc tracker-miner-f[40113]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+авг 19 18:42:28 userpc tracker-miner-f[40113]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+авг 19 18:42:28 userpc pipewire-media-session[40034]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+авг 19 18:42:28 userpc pipewire-media-session[40034]: mod.rt: could not make thread 40045 realtime using RTKit: Отказано в доступе
+авг 19 18:42:28 userpc pipewire[40033]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+авг 19 18:42:28 userpc pipewire[40033]: mod.rt: could not make thread 40150 realtime using RTKit: Отказано в доступе
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.7' (uid=1001 pid=40113 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+авг 19 18:42:28 userpc systemd[40026]: Starting Virtual filesystem service - disk device monitor...
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+авг 19 18:42:28 userpc systemd[40026]: Started Virtual filesystem service - disk device monitor.
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.7' (uid=1001 pid=40113 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+авг 19 18:42:28 userpc systemd[40026]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+авг 19 18:42:28 userpc systemd[40026]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.7' (uid=1001 pid=40113 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+авг 19 18:42:28 userpc systemd[40026]: Starting Virtual filesystem service - digital camera monitor...
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+авг 19 18:42:28 userpc systemd[40026]: Started Virtual filesystem service - digital camera monitor.
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.7' (uid=1001 pid=40113 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+авг 19 18:42:28 userpc snapd-desktop-i[40204]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+авг 19 18:42:28 userpc snapd-desktop-i[40204]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+авг 19 18:42:28 userpc systemd[40026]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+авг 19 18:42:28 userpc systemd[40026]: Started Sound Service.
+авг 19 18:42:28 userpc snapd-desktop-i[40204]: Checking session /org/freedesktop/login1/session/_3717...
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating service name='org.gnome.OnlineAccounts' requested by ':1.14' (uid=1001 pid=40203 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+авг 19 18:42:28 userpc snapd-desktop-i[40204]: Failed to read the session user data. Forcing a reload.
+авг 19 18:42:28 userpc snapd-desktop-i[40204]: Is a desktop session! Forcing a reload.
+авг 19 18:42:28 userpc snapd-desktop-i[40204]: Checking session /org/freedesktop/login1/session/_32...
+авг 19 18:42:28 userpc snapd-desktop-i[40204]: Loop exited. Forcing reload.
+авг 19 18:42:28 userpc goa-daemon[40212]: goa-daemon version 3.44.0 starting
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating service name='org.gnome.Identity' requested by ':1.15' (uid=1001 pid=40212 comm="/usr/libexec/goa-daemon " label="unconfined")
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.gnome.OnlineAccounts'
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+авг 19 18:42:28 userpc systemd[40026]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.7' (uid=1001 pid=40113 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+авг 19 18:42:28 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.gnome.Identity'
+авг 19 18:42:28 userpc systemd[40026]: Starting Virtual filesystem service - Apple File Conduit monitor...
+авг 19 18:42:29 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+авг 19 18:42:29 userpc systemd[40026]: Started Virtual filesystem service - Apple File Conduit monitor.
+авг 19 18:42:29 userpc dbus-daemon[40044]: [session uid=1001 pid=40044] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+авг 19 18:42:29 userpc systemd[40026]: Started Tracker file system data miner.
+авг 19 18:42:29 userpc systemd[40026]: Started Tracker metadata extractor.
+авг 19 18:42:29 userpc systemd[40026]: Reached target Main User Target.
+авг 19 18:42:29 userpc systemd[40026]: Startup finished in 1.016s.
+авг 19 18:42:29 userpc sudo[40269]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+авг 19 18:42:29 userpc sudo[40269]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+авг 19 18:42:29 userpc sudo[40269]: pam_unix(sudo:session): session closed for user root
+авг 19 18:42:30 userpc sudo[40340]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+авг 19 18:42:30 userpc sudo[40340]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+авг 19 18:42:30 userpc sudo[40340]: pam_unix(sudo:session): session closed for user root
+авг 19 18:42:30 userpc sudo[40340]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+авг 19 18:42:30 userpc sudo[40340]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+авг 19 18:42:30 userpc sudo[40340]: pam_unix(sudo:session): session closed for user root
+авг 19 18:42:30 userpc systemd[40026]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 1.
+авг 19 18:42:30 userpc systemd[40026]: Stopped Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+авг 19 18:42:30 userpc systemd[40026]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+авг 19 18:42:31 userpc snapd-desktop-i[40499]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+авг 19 18:42:31 userpc snapd-desktop-i[40499]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+авг 19 18:42:31 userpc snapd-desktop-i[40499]: Checking session /org/freedesktop/login1/session/_3723...
+авг 19 18:42:31 userpc snapd-desktop-i[40499]: Checking session /org/freedesktop/login1/session/_32...
+авг 19 18:42:31 userpc snapd-desktop-i[40499]: Detected new session 724 at /org/freedesktop/login1/session/_3724
+авг 19 18:42:31 userpc snapd-desktop-i[40499]: Detected new session 725 at /org/freedesktop/login1/session/_3725
+авг 19 18:42:32 userpc snapd-desktop-i[40499]: Detected new session 726 at /org/freedesktop/login1/session/_3726
+авг 19 18:42:32 userpc snapd-desktop-i[40499]: Detected new session 727 at /org/freedesktop/login1/session/_3727
+авг 19 18:42:32 userpc snapd-desktop-i[40499]: Detected new session 728 at /org/freedesktop/login1/session/_3728
+авг 19 18:42:33 userpc snapd-desktop-i[40499]: Detected new session 729 at /org/freedesktop/login1/session/_3729
+авг 19 18:42:33 userpc snapd-desktop-i[40499]: Detected new session 730 at /org/freedesktop/login1/session/_3730
+авг 19 18:42:34 userpc snapd-desktop-i[40499]: Detected new session 731 at /org/freedesktop/login1/session/_3731
+авг 19 18:42:34 userpc snapd-desktop-i[40499]: Detected new session 731 at /org/freedesktop/login1/session/_3731
+авг 19 18:42:34 userpc snapd-desktop-i[40499]: Detected new session 732 at /org/freedesktop/login1/session/_3732
+авг 19 18:42:34 userpc snapd-desktop-i[40499]: Detected new session 733 at /org/freedesktop/login1/session/_3733
+авг 19 18:42:35 userpc snapd-desktop-i[40499]: Detected new session 734 at /org/freedesktop/login1/session/_3734
+авг 19 18:42:35 userpc snapd-desktop-i[40499]: Detected new session 735 at /org/freedesktop/login1/session/_3735
+авг 19 18:42:35 userpc snapd-desktop-i[40499]: Detected new session 736 at /org/freedesktop/login1/session/_3736
+авг 19 18:42:36 userpc snapd-desktop-i[40499]: Detected new session 737 at /org/freedesktop/login1/session/_3737
+авг 19 18:42:36 userpc snapd-desktop-i[40499]: Detected new session 738 at /org/freedesktop/login1/session/_3738
+авг 19 18:42:36 userpc snapd-desktop-i[40499]: Detected new session 739 at /org/freedesktop/login1/session/_3739
+авг 19 18:42:37 userpc snapd-desktop-i[40499]: Detected new session 740 at /org/freedesktop/login1/session/_3740
+авг 19 18:42:37 userpc snapd-desktop-i[40499]: Detected new session 741 at /org/freedesktop/login1/session/_3741
+авг 19 18:42:38 userpc snapd-desktop-i[40499]: Detected new session 742 at /org/freedesktop/login1/session/_3742
+авг 19 18:42:38 userpc snapd-desktop-i[40499]: Detected new session 743 at /org/freedesktop/login1/session/_3743
+авг 19 18:42:38 userpc snapd-desktop-i[40499]: Detected new session 744 at /org/freedesktop/login1/session/_3744
+авг 19 18:42:39 userpc snapd-desktop-i[40499]: Detected new session 745 at /org/freedesktop/login1/session/_3745
+авг 19 18:42:40 userpc snapd-desktop-i[40499]: Detected new session 748 at /org/freedesktop/login1/session/_3748
+авг 19 18:42:40 userpc snapd-desktop-i[40499]: Detected new session 749 at /org/freedesktop/login1/session/_3749
+авг 19 18:42:40 userpc snapd-desktop-i[40499]: Detected new session 750 at /org/freedesktop/login1/session/_3750
+авг 19 18:42:41 userpc snapd-desktop-i[40499]: Detected new session 751 at /org/freedesktop/login1/session/_3751
+авг 19 18:42:41 userpc snapd-desktop-i[40499]: Detected new session 752 at /org/freedesktop/login1/session/_3752
+авг 19 18:42:41 userpc snapd-desktop-i[40499]: Detected new session 753 at /org/freedesktop/login1/session/_3753
+авг 19 18:42:42 userpc snapd-desktop-i[40499]: Detected new session 754 at /org/freedesktop/login1/session/_3754
+авг 19 18:42:42 userpc snapd-desktop-i[40499]: Detected new session 755 at /org/freedesktop/login1/session/_3755
+авг 19 18:42:43 userpc snapd-desktop-i[40499]: Detected new session 756 at /org/freedesktop/login1/session/_3756
+авг 19 18:42:43 userpc snapd-desktop-i[40499]: Detected new session 757 at /org/freedesktop/login1/session/_3757
+авг 19 18:42:43 userpc snapd-desktop-i[40499]: Detected new session 758 at /org/freedesktop/login1/session/_3758
+авг 19 18:42:44 userpc snapd-desktop-i[40499]: Detected new session 759 at /org/freedesktop/login1/session/_3759
+авг 19 18:42:44 userpc snapd-desktop-i[40499]: Detected new session 760 at /org/freedesktop/login1/session/_3760
+авг 19 18:42:44 userpc snapd-desktop-i[40499]: Detected new session 759 at /org/freedesktop/login1/session/_3759
+авг 19 18:42:44 userpc snapd-desktop-i[40499]: Detected new session 760 at /org/freedesktop/login1/session/_3760
+авг 19 18:42:44 userpc snapd-desktop-i[40499]: Detected new session 761 at /org/freedesktop/login1/session/_3761
+авг 19 18:42:45 userpc snapd-desktop-i[40499]: Detected new session 762 at /org/freedesktop/login1/session/_3762
+авг 19 18:42:45 userpc snapd-desktop-i[40499]: Detected new session 763 at /org/freedesktop/login1/session/_3763
+авг 19 18:42:45 userpc snapd-desktop-i[40499]: Detected new session 764 at /org/freedesktop/login1/session/_3764
+авг 19 18:42:46 userpc snapd-desktop-i[40499]: Detected new session 765 at /org/freedesktop/login1/session/_3765
+авг 19 18:42:46 userpc snapd-desktop-i[40499]: Detected new session 766 at /org/freedesktop/login1/session/_3766
+авг 19 18:42:46 userpc snapd-desktop-i[40499]: Detected new session 767 at /org/freedesktop/login1/session/_3767
+авг 19 18:42:47 userpc snapd-desktop-i[40499]: Detected new session 768 at /org/freedesktop/login1/session/_3768
+авг 19 18:42:47 userpc snapd-desktop-i[40499]: Detected new session 769 at /org/freedesktop/login1/session/_3769
+авг 19 18:42:48 userpc snapd-desktop-i[40499]: Detected new session 770 at /org/freedesktop/login1/session/_3770
+авг 19 18:42:48 userpc snapd-desktop-i[40499]: Detected new session 771 at /org/freedesktop/login1/session/_3771
+авг 19 18:42:48 userpc snapd-desktop-i[40499]: Detected new session 772 at /org/freedesktop/login1/session/_3772
+авг 19 18:42:49 userpc snapd-desktop-i[40499]: Detected new session 773 at /org/freedesktop/login1/session/_3773
+авг 19 18:42:49 userpc snapd-desktop-i[40499]: Detected new session 774 at /org/freedesktop/login1/session/_3774
+авг 19 18:42:49 userpc snapd-desktop-i[40499]: Detected new session 775 at /org/freedesktop/login1/session/_3775
+авг 19 18:42:50 userpc snapd-desktop-i[40499]: Detected new session 776 at /org/freedesktop/login1/session/_3776
+авг 19 18:42:50 userpc snapd-desktop-i[40499]: Detected new session 777 at /org/freedesktop/login1/session/_3777
+авг 19 18:42:50 userpc snapd-desktop-i[40499]: Detected new session 778 at /org/freedesktop/login1/session/_3778
+авг 19 18:42:51 userpc snapd-desktop-i[40499]: Detected new session 779 at /org/freedesktop/login1/session/_3779
+авг 19 18:42:51 userpc snapd-desktop-i[40499]: Detected new session 780 at /org/freedesktop/login1/session/_3780
+авг 19 18:42:51 userpc snapd-desktop-i[40499]: Detected new session 781 at /org/freedesktop/login1/session/_3781
+авг 19 18:42:52 userpc snapd-desktop-i[40499]: Detected new session 782 at /org/freedesktop/login1/session/_3782
+авг 19 18:42:52 userpc snapd-desktop-i[40499]: Detected new session 783 at /org/freedesktop/login1/session/_3783
+авг 19 18:42:52 userpc snapd-desktop-i[40499]: Detected new session 784 at /org/freedesktop/login1/session/_3784
+авг 19 18:42:53 userpc snapd-desktop-i[40499]: Detected new session 785 at /org/freedesktop/login1/session/_3785
+авг 19 18:42:53 userpc snapd-desktop-i[40499]: Detected new session 786 at /org/freedesktop/login1/session/_3786
+авг 19 18:42:54 userpc snapd-desktop-i[40499]: Detected new session 787 at /org/freedesktop/login1/session/_3787
+авг 19 18:42:54 userpc snapd-desktop-i[40499]: Detected new session 788 at /org/freedesktop/login1/session/_3788
+авг 19 18:42:54 userpc snapd-desktop-i[40499]: Detected new session 789 at /org/freedesktop/login1/session/_3789
+авг 19 18:42:55 userpc snapd-desktop-i[40499]: Detected new session 790 at /org/freedesktop/login1/session/_3790
+авг 19 18:42:55 userpc snapd-desktop-i[40499]: Detected new session 791 at /org/freedesktop/login1/session/_3791
+авг 19 18:42:55 userpc snapd-desktop-i[40499]: Detected new session 792 at /org/freedesktop/login1/session/_3792
+авг 19 18:42:56 userpc snapd-desktop-i[40499]: Detected new session 793 at /org/freedesktop/login1/session/_3793
+авг 19 18:42:56 userpc snapd-desktop-i[40499]: Detected new session 794 at /org/freedesktop/login1/session/_3794
+авг 19 18:42:57 userpc snapd-desktop-i[40499]: Detected new session 795 at /org/freedesktop/login1/session/_3795
+авг 19 18:42:57 userpc snapd-desktop-i[40499]: Detected new session 796 at /org/freedesktop/login1/session/_3796
+авг 19 18:42:57 userpc snapd-desktop-i[40499]: Detected new session 797 at /org/freedesktop/login1/session/_3797
+авг 19 18:42:58 userpc snapd-desktop-i[40499]: Detected new session 798 at /org/freedesktop/login1/session/_3798
+авг 19 18:42:58 userpc snapd-desktop-i[40499]: Detected new session 799 at /org/freedesktop/login1/session/_3799
+авг 19 18:42:59 userpc snapd-desktop-i[40499]: Detected new session 800 at /org/freedesktop/login1/session/_3800
+авг 19 18:42:59 userpc snapd-desktop-i[40499]: Detected new session 801 at /org/freedesktop/login1/session/_3801
